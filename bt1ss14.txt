@@ -1,0 +1,4 @@
+Các bước để thêm Prometheus làm Data Source:
+Connections → Data sources → Add data source → Prometheus -> nhập http://prometheus:9090 -> Save & test
+
+Không dùng http://localhost:9090 Vì Grafana và Prometheus đang chạy ở hai container khác nhau, localhost không giúp kết nối chuyển ra ngoài container

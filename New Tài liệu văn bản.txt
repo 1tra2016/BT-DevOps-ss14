@@ -1,0 +1,3 @@
+CPU Usage: 100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)
+
+Free RAM: node_memory_MemFree_bytes
